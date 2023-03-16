@@ -1,4 +1,4 @@
-const { error } = require('./src/constants');
+  const { error } = require('./src/constants');
 const File = require('./src/file');
 const { rejects, deepStrictEqual } = require('assert').strict;
 
