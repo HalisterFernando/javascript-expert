@@ -5,7 +5,7 @@ class Fibonacci {
 
         yield current
 
-        yield * this.execute(input - 1, next, current + next )       
+        yield * this.execute(input - 1, next, current + next)       
         
     }
 }
