@@ -1,0 +1,23 @@
+[
+  {
+    "id": "3d1e8bb8-545e-42a0-bf4b-bfad084e9d09",
+    "name": "El Camino",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "dc7047bb-b2c5-452e-8e5c-a07f57e45e3a",
+    "name": "Malibu",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "f7288bfa-6c28-488f-9b94-812e5e5f6c86",
+    "name": "Altima",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  }
+]
