@@ -3,7 +3,11 @@ const BaseRespository = require('../repository/base/baseRepository')
 class CarService {
     constructor({ cars }) {
         this.carRespository = new BaseRespository({ file: cars })
+
+       
     }
+
+    
 
     getRandomPositionFromArray(list) {
         const listLength = list.length

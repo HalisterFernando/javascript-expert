@@ -67,9 +67,8 @@ describe('CarService Suite tests', () => {
         const expected = car
 
         expect(carService.chooseRandomCar.calledOnce).to.be.ok
-        expect(carService.carRespository.find.calledWithExactly(car.id)).to.be.ok
-        expect(result).to.be.deep.equal(expected)
-
-        
+        expect(carService.carRespository.find.calledWithExactly(car.id)).to.be.ok        
+        expect(result).to.be.deep.equal(expected)        
     })
+    
 })
