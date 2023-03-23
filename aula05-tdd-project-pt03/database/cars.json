@@ -1,0 +1,23 @@
+[
+  {
+    "id": "0bcec0b4-dba5-4169-a574-da49a5ebb7bc",
+    "name": "Accord",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "b5e3bf59-cde4-4aa0-9a82-cf9635af2794",
+    "name": "F-150",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "cbb4586f-c520-46b8-b4ca-b41bef3b53d2",
+    "name": "Charger",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  }
+]
