@@ -26,7 +26,7 @@ describe('CarService Suite tests', () => {
     })
     afterEach(() => {
         sandbox.restore()
-    })
+    })    
     it('shoult retrieve a random position from an array', () => {
         const data = [0, 1, 2, 3, 4]
         const result = carService.getRandomPositionFromArray(data)

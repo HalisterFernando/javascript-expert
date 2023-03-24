@@ -1,22 +1,113 @@
 [
   {
-    "id": "0bcec0b4-dba5-4169-a574-da49a5ebb7bc",
-    "name": "Accord",
+    "id": "9d368f14-edc4-4aa7-963d-a1e96e18204e",
+    "name": "El Camino",
     "releaseYear": 2022,
     "available": true,
     "gasAvailable": true
   },
   {
-    "id": "b5e3bf59-cde4-4aa0-9a82-cf9635af2794",
-    "name": "F-150",
+    "id": "8b0f839d-41da-457c-b21c-67c4cfeac0d8",
+    "name": "Corvette",
     "releaseYear": 2022,
     "available": true,
     "gasAvailable": true
   },
   {
-    "id": "cbb4586f-c520-46b8-b4ca-b41bef3b53d2",
+    "id": "e28ce7ce-f067-49f9-a278-8efcbf3bf4dc",
+    "name": "Aventador",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "b0c58f99-8b0b-48e4-a3b4-14d95f349232",
+    "name": "XTS",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "ad36f003-9889-4c94-be85-811511e7e390",
+    "name": "Malibu",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "716f8f5e-7572-4117-8fea-0225bcc58a52",
     "name": "Charger",
     "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "71c53aea-85af-43e3-8016-c312cc9e73ea",
+    "name": "Roadster",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "f10ac308-6fe9-42ca-bae8-ddee230bf97e",
+    "name": "1",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "509935ef-700c-4290-bb03-0c8bcb37d05f",
+    "name": "Jetta",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "e022fcde-7f1a-406b-8ccc-bb14e6b1f560",
+    "name": "Taurus",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "ad3c50d1-ade3-4565-a52b-9cf49ab7db49",
+    "name": "Malibu",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "fa5f4fc0-7176-46e6-a0c4-3ca9ac485689",
+    "name": "Expedition",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "7655732d-8d13-4e40-a9ff-c841a5f061b1",
+    "name": "Alpine",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "067bea41-a762-424e-bae7-66132f61407b",
+    "name": "Wrangler",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "afd75539-e95e-47b8-9e4d-59ed6cc9b9a3",
+    "name": "XTS",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "712b0732-cfbc-457a-9365-8a3fff5f8b81",
+    "name": "Volt",
+    "releaseYear": 2023,
     "available": true,
     "gasAvailable": true
   }

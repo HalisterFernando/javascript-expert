@@ -10,7 +10,8 @@ class CarService {
             style: 'currency',
             currency: 'BRL'
         })
-    }
+        console.log(cars)
+    }  
 
     getRandomPositionFromArray(list) {
         const listLength = list.length
@@ -26,7 +27,7 @@ class CarService {
         return carId
     }
 
-    async getAvailableCar(carCategory) {
+    async getAvailableCar(carCategory) {        
         const carId = this.chooseRandomCar(carCategory)
         const car = await this.carRespository.find(carId)
 
@@ -55,7 +56,7 @@ class CarService {
         const today = new Date()
         today.setDate(today.getDate() + numberOfDays)
         const options = { year: "numeric", month: "long", day: "numeric" }
-        const dueDate = today.toLocaleDateString("pt-br", options)
+        const dueDate = today.toLocaleDateString("pt-br", options)       
 
         const transaction = new Transaction({
             customer,
