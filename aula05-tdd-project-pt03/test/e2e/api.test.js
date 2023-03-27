@@ -38,7 +38,7 @@ describe('API suite test', () => {
 
     describe('/getAvailableCar:get', () => {
         it('should return an available car', async () => {
-            const carCategory = mocks.validCarCategory;
+            const carCategory = { ...mocks.validCarCategory };
             const car = mocks.validCar;
             carCategory.carIds = [car.id];
             
