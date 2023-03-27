@@ -10,7 +10,7 @@ class CarService {
             style: 'currency',
             currency: 'BRL'
         })
-        console.log(cars)
+        
     }  
 
     getRandomPositionFromArray(list) {
@@ -42,8 +42,8 @@ class CarService {
         .find((tax) => age >= tax.from && age <= tax.to)
 
         const finalPrice = ((tax * price) * (numberOfDays))
-        const formattedPrice = this.currencyFormat.format(finalPrice)
         
+        const formattedPrice = this.currencyFormat.format(finalPrice)        
         return formattedPrice
     }
 
