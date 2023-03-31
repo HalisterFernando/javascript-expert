@@ -1,5 +1,6 @@
 import Person from './person.js';
 import TerminalController from './terminalController.js';
+import { save } from './repository.js'
 import database from '../database.json' assert {
     type: 'json'
 };
@@ -22,8 +23,9 @@ async function mainLoop() {
             return;
         }
 
-        const person = Person.generateInstanceFromString(answer).formatted(DEFAULT_LANG)
-        console.log('person', person)
+        const person = Person.generateInstanceFromString(answer)
+        terminalController.updateTable(person.formatted(DEFAULT_LANG))
+        await save(person)
         return mainLoop();
     } catch(err) {
         console.log('DEU RUIM', err)

@@ -20,11 +20,17 @@ export default class TerminalController {
         this.initializeTable(database, language)
     }
 
+    updateTable(item) {
+        this.data.push(item)
+        this.print(chalkTalble(this.getTableOptions(), this.data))
+    }
+
     initializeTable(database, language) {
         const data = database.map((item) => new Person(item).formatted(language));        
         const table = chalkTalble(this.getTableOptions(), data);
         const print = console.draft(table);
         this.data = data
+        this.print = print
     }
 
     getTableOptions() {
