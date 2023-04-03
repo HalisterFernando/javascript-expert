@@ -36,7 +36,8 @@ export default class TerminalController {
         return table
     }
 
-    initializeTable(table) {
+    initializeTable(database, language) {
+        const table = this.createTable(database, language)
         const print = console.draft(table);        
         this.print = print
     }
