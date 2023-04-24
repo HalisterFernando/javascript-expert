@@ -1,0 +1,46 @@
+[
+  {
+    "id": "0b7d43cb-e26d-44cb-967d-bcea5932cdde",
+    "name": "Convertible",
+    "carIds": [
+      "9d368f14-edc4-4aa7-963d-a1e96e18204e",
+      "8b0f839d-41da-457c-b21c-67c4cfeac0d8",
+      "e28ce7ce-f067-49f9-a278-8efcbf3bf4dc",
+      "b0c58f99-8b0b-48e4-a3b4-14d95f349232"
+    ],
+    "price": "23.33"
+  },
+  {
+    "id": "2b71d009-5c10-4b4d-831a-3fbb53aa36d3",
+    "name": "Extended Cab Pickup",
+    "carIds": [
+      "ad36f003-9889-4c94-be85-811511e7e390",
+      "716f8f5e-7572-4117-8fea-0225bcc58a52",
+      "71c53aea-85af-43e3-8016-c312cc9e73ea",
+      "f10ac308-6fe9-42ca-bae8-ddee230bf97e"
+    ],
+    "price": "22.46"
+  },
+  {
+    "id": "4f4e03c8-6e51-4954-9b4b-8d9cf55286c3",
+    "name": "Hatchback",
+    "carIds": [
+      "509935ef-700c-4290-bb03-0c8bcb37d05f",
+      "e022fcde-7f1a-406b-8ccc-bb14e6b1f560",
+      "ad3c50d1-ade3-4565-a52b-9cf49ab7db49",
+      "fa5f4fc0-7176-46e6-a0c4-3ca9ac485689"
+    ],
+    "price": "77.56"
+  },
+  {
+    "id": "d7e914dd-f356-45a5-abc2-fd930c261c29",
+    "name": "Coupe",
+    "carIds": [
+      "7655732d-8d13-4e40-a9ff-c841a5f061b1",
+      "067bea41-a762-424e-bae7-66132f61407b",
+      "afd75539-e95e-47b8-9e4d-59ed6cc9b9a3",
+      "712b0732-cfbc-457a-9365-8a3fff5f8b81"
+    ],
+    "price": "55.60"
+  }
+]

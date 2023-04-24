@@ -1,0 +1,20 @@
+^\d{3}.\d{3}.\d{3}-\d{2}$
+replace [.-] - vazio
+
+123.123.123-14
+321.321.321-20
+100.200.300-19
+
+Wendel, Erick
+Gomes, Laila
+Johnson, Jose
+
+replace: ^(\w+),\s(\w+)$ por 
+{firstName: '$2', lastName: '$1'}
+
+O [Erick Wendel](https://erickwendel.com) faz palestras e você devia segui-lo no [Twitter](http://twitter.com/erickwendel_) 
+ou no [Instagram](https://Instagram.com/erickwendel)
+
+E você pode pesquisar no [Google](https://google.com) ou [Yahoo](https://yahoo.com)
+
+\[(.*?)\]\(([http|https].*?)\) - substituir links em markdown por html
