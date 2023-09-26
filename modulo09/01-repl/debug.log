@@ -1,0 +1,10 @@
+setBreakpoint(13)
+cont
+exec req.url
+exec new URLSearch('discount');
+exec new URLSearch('discount')
+exec new URLSearch(req.url).get('discount')
+exec new URLSearch(req.url).get('discount')
+exec req.url
+exec new URLSearchParams(req.url)
+exec new URLSearchParams(req.url).get('discount')
