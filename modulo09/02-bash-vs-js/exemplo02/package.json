@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "npx zx index.mjs"
+  },
+  "dependencies": {
+    "safe-regex": "^2.1.1",
+    "zx": "^7.2.3"
+  }
+}
