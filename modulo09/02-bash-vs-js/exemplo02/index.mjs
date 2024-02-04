@@ -1,5 +1,6 @@
 import { setTimeout } from 'timers/promises';
 import isSafe from 'safe-regex';
+import { lookupService } from 'dns';
 
 await $`docker run -p 8080:80 -d nginx`
 await setTimeout(500)
